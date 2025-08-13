@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+  background-image: linear-gradient(to top, #000000, #4C2176);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+.navegacao {
+  display: flex;
+  flex-direction: row; 
+  gap: 2rem; 
+  align-items: center;
+}
+.navegacao a,.navegacao p,.navegacao img {
+  font-size: 30px;
+  font-family: 'Montserrat', sans-serif;
+  color: #FFFFFF;
+  filter: brightness(1.2); 
+  text-decoration: none;
+  color: #FFFFFF;
+  
+}
+
+.navegacao p:hover, .navegacao img:hover, .navegacao a:hover  {
+  color: #F2BD33;
+  cursor: pointer;
+}
+
+.alinhamento1{
+ padding: 2rem 3rem; 
+ display: flex;
+ justify-content: space-between;
+ align-items: center; 
+}
+  
+h2 {
+    color: #ffffff;
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+  }
+  h1 {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-size: 4rem;
+    text-align: left;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding: 20px;
+
+  }
+  
+  .card {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    min-width: 400px;
+    max-width: 450px;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 0 4px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    flex-shrink: 0;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+  }
+  
+  .card img {
+    width: 200px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+  
+  .info {
+    margin-left: 15px;
+  }
+  
+  .info h2 {
+    margin: 0;
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .info p {
+    margin: 5px 0 0;
+    color: #666;
+  }
+
+  .home-button {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    background-color: #522780;
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+    transition: background-color 0.3s ease;
+  }
+  
+  .home-button:hover {
+    background-color: #3b1d5e;
+  }
+.blocos {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  padding: 40px;
+}
+
+.bloco {
+  display: flex;
+  flex-direction: column;
+}
+
+.bloco h2 {
+  color: white;
+  font-size: 24px;
+  margin-bottom: 20px;
+  font-family: sans-serif;
+  text-align: left;
+}
+
+.videos-linha {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+

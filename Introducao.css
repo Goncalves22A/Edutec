@@ -1,0 +1,167 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.fundo {
+  background-image: url('edutec1.');
+  background-size: cover;
+  background-position: -100px -100px;
+  background-repeat: no-repeat;
+  padding-bottom: 2rem;
+}
+
+.logo {
+  cursor: pointer;
+}
+
+h2 {
+  color: white;
+}
+
+.navegacao {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  align-items: center;
+}
+
+.navegacao a,
+.navegacao {
+  font-size: 30px;
+  font-family: 'Montserrat', sans-serif;
+  color: #FFFFFF;
+  filter: brightness(1.2);
+  text-decoration: none;
+  color: #FFFFFF;
+
+}
+
+.navegacao p:hover,
+.navegacao img:hover,
+.navegacao a:hover {
+  color: #F2BD33;
+  cursor: pointer;
+}
+
+.alinhamento {
+  padding: 2rem 3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.apresentacao {
+  color: #FFFFFF;
+  text-align: center;
+  margin-top: 15rem;
+}
+
+.h2 {
+  font-size: 4rem;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+}
+
+.h1 {
+  font-size: 8rem;
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+}
+
+.h3 {
+  font-size: 2.25rem;
+  font-family: "Montserrat Alternates", sans-serif;
+  font-weight: 300;
+}
+
+.seguir {
+  background-color: #F2BD33;
+  border-radius: 1rem;
+  cursor: pointer;
+  margin-left: 84rem;
+  margin-top: 3rem;
+  padding: 1.2rem 4rem;
+  padding: 20px 30px;
+
+  font-family: "Montserrat", sans-serif;
+  color: white;
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.Cor_de_fundo {
+  background-color: #461C6D;
+  min-height: 90vh;
+  margin-bottom: 5rem;
+
+}
+
+
+.Todos_os_elementos {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+
+  margin-top: 10rem;
+
+}
+
+.Camada_escura {
+
+  background-color: #2F1745;
+  border-radius: 2rem;
+  padding: 3rem;
+  width: 25rem;
+}
+
+.Camada_escura:hover {
+  background-color: #FEC800;
+  cursor: pointer;
+
+  .Camada_amarela {
+    background-color: #2F1745;
+  }
+}
+
+.Camada_amarela {
+  background-color: #FEC800;
+  padding: 2rem;
+  border-radius: 1rem;
+
+  height: 30rem;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 3rem;
+
+
+}
+
+.funcoes_inorganicas {
+  width: 13rem;
+  height: 15rem;
+
+}
+
+.button_Inorganicas {
+  background-color: #522780;
+  border-radius: 8px;
+  cursor: pointer;
+  width: 8rem;
+  height: 4rem;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: white;
+  border: none;
+  margin-left: 2.5rem;
+}
